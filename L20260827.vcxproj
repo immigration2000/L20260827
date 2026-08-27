@@ -125,16 +125,22 @@
   <ItemGroup>
     <ClCompile Include="Actor.cpp" />
     <ClCompile Include="charater.cpp" />
+    <ClCompile Include="Gobiln.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Slime.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Actor.h" />
     <ClInclude Include="charater.h" />
-    <ClInclude Include="enum.h" />
+    <ClInclude Include="Gobiln.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Slime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

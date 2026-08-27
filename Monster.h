@@ -1,6 +1,12 @@
 #pragma once
 #include "charater.h"
-#include "enum.h"
+
+enum MonsterType
+{
+	WildBoar,
+	Slime,
+	Goblin
+};
 
 class AMonster : public Acharater
 {
