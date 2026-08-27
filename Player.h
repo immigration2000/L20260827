@@ -3,5 +3,12 @@
 
 class APlayer : public Acharater
 {
+public:
+	APlayer();
+	~APlayer();
+
+private:
+
 };
+
 
